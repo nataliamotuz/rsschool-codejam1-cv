@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Резюме Натальи Мотуз</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Natalia Motuz</h1>
+    <h4>Junior Software Engineer</h4>
+    <img src="./img/nm.png" alt="Natalia Motuz">
+    <h1>I'am Natalia Motuz</h1>
+    <h4>Junior Software Engineer</h4>
+    <dl>
+      <dt>Age</dt>
+      <dd>32</dd>
+      <dt>Adress</dt>
+      <dd>Minsk, Belarus</dd>
+      <dt>Email</dt>
+      <dd><a href="mailto:natalia.motuz@gmail.com">natalia.motuz</a></dd>
+      <dt>Phone</dt>
+      <dd><a href="tel:+375293969596">+375 29 3969596</a></dd>
+      <dt>Skype</dt>
+      <dd><a href="skype:ahienczyk">ahienczyk</a></dd>
+    </dl>
+    <ul class="social-networks">
+      <li class="facebook"><a href="www.facebook.com"></li>
+      <li class="twitter"><a href="www.twitter.com"></a></li>
+      <li class="instagram"><a href="www.instagram.com"></a></li>
+      <li class="githab"><a href="www.github.com"></a></li>
+    </ul>
+    <h1>Summary</h1>
+    <p>
+      My goalsMy goals My goals My goals My goals My goals My goals My goals My goals My goals My goals My goals
+    </p>
+    <h1>Skills</h1>
+    <p>
+      My skills description
+    </p>
+    <ul>
+      <li>
+        <progress value="60" max="100">
+          HTML
+        </progress>
+      </li>
+      <li>
+        <progress value="50" max="100">
+          CSS
+        </progress>
+      </li>
+      <li>
+        <progress value="30" max="100">
+          JavaScript
+        </progress>
+      </li>
+      <li>
+        <progress value="5" max="100">
+          ReactJS
+        </progress>
+      </li>
+    </ul>
+    <h1>Code Example</h1>
+    <code>
+      module.exports = function solveEquation(equation) {
+        const parsedEquation = equation.split(' ');
+        const op1 = parsedEquation[3];
+        const op2 = parsedEquation[7]; 
+        const a = parsedEquation[0];
+        const b = parsedEquation[4] * (op1 === '-' ? - 1 : 1 );
+        const c = parsedEquation[8] * (op2 === '-' ? - 1 : 1 );
+        const D = Math.sqrt(b * b - 4 * a * c);
+        const x1 = Math.round((-b + D) / (2 * a));
+        const x2 = Math.round((-b - D) / (2 * a));
+      
+        return [x1, x2].sort(function (a, b) {return a - b});
+      }
+    </code>
+    <h1>Experience</h1>
+    <ul>
+      <li><a href="https://github.com/nataliamotuz/love-triangle">Task#1</a></li>
+      <li><a href="https://github.com/nataliamotuz/warmup">Task#2</a></li>
+      <li><a href="https://github.com/nataliamotuz/quadratic-equation">Task#3</a></li>
+    </ul>
+    <h1>Education</h1>
+    <!-- TODO add education -->
+    <h1>English skills</h1>
+    <!-- TODO add english skils -->
+  </div>
+</body>
+
+</html>
