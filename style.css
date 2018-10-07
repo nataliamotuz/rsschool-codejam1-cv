@@ -1,31 +1,42 @@
 * {
   box-sizing: border-box;
 }
+
 h1, p, h4 {
   margin: 0;
 }
+
 .container {
   max-width: 1024px;
   margin: 0 auto;
-  background-color: grey;
+  background-color:lightgray;
 }
+
 .content-block {
   margin: 0 auto;
   width: 800px;
   background-color: white;
 }
+
 .title {
   text-align: center;
   padding: 30px;
+  color: cadetblue;
+  text-transform: uppercase;
+  font-size: 24px;
 }
+
 .heading {
   padding: 20px;
-  background-color: aqua;
+  background-color: cadetblue;
   height: 200px;
+  color: white;
 }
+
 .about {
   margin-top: -100px;
 }
+
 .about img {
   position: relative;
   vertical-align: top;
@@ -33,52 +44,52 @@ h1, p, h4 {
   height: 250px;
   display: inline-block;
 }
+
 .about-right {
   vertical-align: top;
-  height: 250px;
-  position: relative;
   display: inline-block;
-  width: 500px;
+  max-width: 500px;
   padding: 20px 0 20px 60px;
 }
+
+.about h1 span {
+  color: cadetblue;
+}
+
 .about-right a {
   text-decoration: none;
   color: black;
 }
-.about h1 {
-  margin: 0;
-  display: inline-block;
-  width: 400px;
-}
-.about h4 {
-  margin: 0;
-  display: inline-block;
-  width: 400px;
-}
+
 dl {
-  width: 500px;
+  max-width: 500px;
   display: inline-block;
 }
+
 dt {
   width: 80px;
   display: inline-block;
   font-weight: 700;
 }
+
 dd {
   width: 300px;
   display: inline-block;
 }
+
 .social-networks {
   padding: 0;
   margin: 0;
   display: inline-block;
 }
+
 .social-networks li {
   padding: 10px;
   margin: 0;
   cursor: pointer;
   display: inline-block;
 }
+
 .social-networks a {
   display: block;
   color: black;
@@ -96,6 +107,7 @@ dd {
   padding: 20px;
   margin: 0 auto;
 }
+
 .skills ul {
   list-style: none;
   vertical-align: top;
@@ -106,31 +118,38 @@ dd {
   padding: 20px;
   margin: 0 auto;
 }
+
 .skills li {
   padding: 10px;
 }
+
 .skills span {
   display: inline-block;
   width: 70px;
 }
+
 .skills progress {
-  background-color: greenyellow;
   width: 200px;
 }
+
 progress {
   border: 0;
   height: 10px;
   border-radius: 5px;
 }
+
 progress::-webkit-progress-bar {
   border: 0;
   height: 10px;
   border-radius: 5px;
+  background: lightgray;
 }
+
 progress::-webkit-progress-value {
   border: 0;
   height: 10px;
   border-radius: 5px;
+  background: cadetblue;
 }
 
 /* Experience section */
