@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+h1, p, h4 {
+  margin: 0;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: grey;
+}
+.content-block {
+  margin: 0 auto;
+  width: 800px;
+  background-color: white;
+}
+.title {
+  text-align: center;
+  padding: 30px;
+}
+.heading {
+  padding: 20px;
+  background-color: aqua;
+  height: 200px;
+}
+.about {
+  margin-top: -100px;
+}
+.about img {
+  position: relative;
+  vertical-align: top;
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+}
+.about-right {
+  vertical-align: top;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  padding: 20px 0 20px 60px;
+}
+.about-right a {
+  text-decoration: none;
+  color: black;
+}
+.about h1 {
+  margin: 0;
+  display: inline-block;
+  width: 400px;
+}
+.about h4 {
+  margin: 0;
+  display: inline-block;
+  width: 400px;
+}
+dl {
+  width: 500px;
+  display: inline-block;
+}
+dt {
+  width: 80px;
+  display: inline-block;
+  font-weight: 700;
+}
+dd {
+  width: 300px;
+  display: inline-block;
+}
+.social-networks {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.social-networks li {
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+  display: inline-block;
+}
+.social-networks a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+/* Skills section */
+
+.skills p {
+  vertical-align: top;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  width: 350px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.skills ul {
+  list-style: none;
+  vertical-align: top;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  width: 350px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.skills li {
+  padding: 10px;
+}
+.skills span {
+  display: inline-block;
+  width: 70px;
+}
+.skills progress {
+  background-color: greenyellow;
+  width: 200px;
+}
+progress {
+  border: 0;
+  height: 10px;
+  border-radius: 5px;
+}
+progress::-webkit-progress-bar {
+  border: 0;
+  height: 10px;
+  border-radius: 5px;
+}
+progress::-webkit-progress-value {
+  border: 0;
+  height: 10px;
+  border-radius: 5px;
+}
+
+/* Experience section */
+
+.experience {
+  position: relative;
+  list-style: none;
+}
+
+.experience li {
+  display: inline-block;
+  margin: 10px 30px;
+  padding: 10px;
+  width: 500px;
+  border: 1px solid black;
+}
