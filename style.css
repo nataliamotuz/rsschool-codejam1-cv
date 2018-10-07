@@ -166,3 +166,33 @@ progress::-webkit-progress-value {
   width: 500px;
   border: 1px solid black;
 }
+
+/* Mobile section */
+
+@media (max-width: 800px) {
+  .content-block {
+    display: block;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .heading {
+    height: 100px;
+  }
+
+  .about img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .about-right {
+    padding: 0 20px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  pre.content-block {
+    text-align: left;
+  }
+}
